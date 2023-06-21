@@ -2,7 +2,7 @@
 
 ## TLDR
 
-Minimalistic (for example only - not production use) demonstration of how to use Langchain/OpenAI API for a PDF server in JS & TS
+Minimalistic (**for example only - not production use**) demonstration of how to use Langchain/OpenAI API for a PDF server in JS & TS
 
 * `embed.ts` contains the logic for parsing, embedding, and saving a PDF document as a local vector store using FAISS
 * `query.ts` handles incoming query requests and returns a response using GPT3.5 and the previously saved DB info
